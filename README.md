@@ -54,9 +54,20 @@ Then open your browser and navigate to `http://localhost:8000` (or the port show
 
 ## Deployment to GitHub Pages
 
-### Branch Deployment
+### GitHub Actions Deployment
 
-You can deploy this website to GitHub Pages using the branch deployment method:
+This repository is set up with GitHub Actions to automatically deploy to GitHub Pages whenever changes are pushed to the main branch.
+
+1. Create a GitHub repository (if you haven't already)
+2. Push your code to the repository
+3. Go to Settings > Pages
+4. Set Source to "GitHub Actions"
+5. GitHub Actions will automatically build and deploy your site
+6. Your site will be available at `https://yourusername.github.io/repository-name/`
+
+### Alternative: Branch Deployment
+
+You can also deploy this website to GitHub Pages using the branch deployment method:
 
 1. Create a GitHub repository (if you haven't already)
 2. Push your code to the repository
@@ -76,6 +87,7 @@ You can deploy this website to GitHub Pages using the branch deployment method:
 - `faq.html` - FAQ page
 - `style.css` - Neobrutalist styling
 - `main.js` - Interactive features
+- `.github/workflows/deploy.yml` - GitHub Actions workflow for automatic deployment
 
 ## Design Notes
 
