@@ -54,23 +54,11 @@ Then open your browser and navigate to `http://localhost:8000` (or the port show
 
 ## Deployment to GitHub Pages
 
-### Automatic Deployment
+### Branch Deployment
 
-This repository is set up with GitHub Actions to automatically deploy to GitHub Pages whenever changes are pushed to the main branch.
+You can deploy this website to GitHub Pages using the branch deployment method:
 
-1. Fork or clone this repository
-2. Enable GitHub Pages in your repository settings:
-   - Go to Settings > Pages
-   - Set Source to "GitHub Actions"
-3. Push changes to the main branch
-4. GitHub Actions will automatically build and deploy your site
-5. Your site will be available at `https://yourusername.github.io/repository-name/`
-
-### Manual Deployment
-
-If you prefer to deploy manually:
-
-1. Create a GitHub repository
+1. Create a GitHub repository (if you haven't already)
 2. Push your code to the repository
 3. Go to Settings > Pages
 4. Set Source to "Deploy from a branch"
@@ -88,7 +76,6 @@ If you prefer to deploy manually:
 - `faq.html` - FAQ page
 - `style.css` - Neobrutalist styling
 - `main.js` - Interactive features
-- `.github/workflows/deploy.yml` - GitHub Actions workflow for automatic deployment
 
 ## Design Notes
 
@@ -101,4 +88,4 @@ This landing page follows the neobrutalist design principles:
 
 ## License
 
-© 2025 Vibe Coding Game Jam 
+MIT License © 2024 Vibe Coding Game Jam 
